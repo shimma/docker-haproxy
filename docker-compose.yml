@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  haproxy:
+  app:
     build: .
     environment:
       - TARGET_HOST=b.hatena.ne.jp
